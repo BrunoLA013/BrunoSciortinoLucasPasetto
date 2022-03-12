@@ -70,7 +70,8 @@ Fim MENU*/
     display: flex;
     align-items: center;
     border-radius: 20px;
-    transition: 0, 10s;
+    transition: 0.9s;
+    z-index: 0;
 }
 
 .card .bola {
@@ -91,9 +92,9 @@ Fim MENU*/
     width: 100%;
     height: 100%;
     background: linear-gradient(68.15deg, rgba(0, 0, 0, 0.604) 16.62%, #3b115e 85.61%);
-    clip-path: circle(130px at center);
+    clip-path: circle(160px at center);
     opacity: 0.8;
-    transition: 0, 5s;
+    transition: 0.7s;
 }
 .card:hover .bola:before {
     background: linear-gradient(68.15deg, rgba(0, 0, 0, 0.604) 16.62%, #3b115e 85.61%);
@@ -104,7 +105,7 @@ Fim MENU*/
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
+    height: 150%;
     pointer-events: none;
     transition: 0.5s;
 }
@@ -198,7 +199,8 @@ Fim MENU*/
 }
 @media (max-width: 460px) {
     .card {
-        left: 15%;
+        left: 15%;        
+        top: 50px;
     }
     .card .content {
         padding: 40px;
@@ -211,6 +213,7 @@ Fim MENU*/
 @media (max-width: 375px) {
     .card {
         left: 10%;
+        top: 50px;
     }
     .card .content {
         padding: 40px;

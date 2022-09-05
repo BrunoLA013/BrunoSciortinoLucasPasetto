@@ -60,6 +60,12 @@ Fim MENU*/
     align-items: center;
     min-height: 50vh;
 }
+.centroP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
 /*effect*/
 .card {
     margin-top: 150px;
